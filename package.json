@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "github:pptik/galileo",
   "author": "Mohamad Radisha <pr0ph0z23@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.15.0",
+    "dotenv": "^8.2.0"
+  }
 }
