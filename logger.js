@@ -1,6 +1,5 @@
 // TODO: Use proper logging like winston or bunyan
 
-require('dotenv').config()
 const format = require('date-fns/format')
 const Logger = function () {}
 

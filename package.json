@@ -1,13 +1,12 @@
 {
   "name": "@pptik/galileo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Reusable properties yang digunakan untuk mendukung proses development di Node.js",
   "main": "index.js",
   "repository": "github:pptik/galileo",
   "author": "Mohamad Radisha <pr0ph0z23@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "date-fns": "^2.15.0",
-    "dotenv": "^8.2.0"
+    "date-fns": "^2.15.0"
   }
 }
