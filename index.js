@@ -111,5 +111,6 @@ module.exports = {
   logger,
   checkRequest,
   checkRequiredProperties,
-  mongoOptions
+  mongoOptions,
+  requestResponse
 }
