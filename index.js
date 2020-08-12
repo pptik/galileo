@@ -98,8 +98,18 @@ const requestResponse = {
   }
 }
 
+const mongoOptions = {
+  keepAlive: true,
+  poolSize: 10,
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useFindAndModify: false,
+  autoIndex: false
+}
+
 module.exports = {
   logger,
   checkRequest,
-  checkRequiredProperties
+  checkRequiredProperties,
+  mongoOptions
 }
